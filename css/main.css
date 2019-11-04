@@ -21,6 +21,9 @@ html {
    padding: .2rem 1rem;
  }
 
+.card-head {
+   position: relative;
+}
  .card-title {
    position: absolute;
    bottom: 0;
