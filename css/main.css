@@ -6,25 +6,26 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
- .img-flex {
+
+.img-flex {
    width: 100%;
    display: block;
  }
 
- .card {
+.card {
    overflow: hidden;
    border: 1px solid #ccc;
    border-radius: 0 6px 6px;
  }
 
- .card-body {
+.card-body {
    padding: .2rem 1rem;
  }
-
 .card-head {
    position: relative;
 }
- .card-title {
+
+.card-title {
    position: absolute;
    bottom: 0;
    left: 0;
@@ -33,7 +34,7 @@ html {
    margin: 0;
  }
 
- .card-label {
+.card-label {
    padding: .3rem 1rem .3rem calc(1rem - 4px);
    border-left: 4px solid green;
    background-color: rgba(255, 255, 255, .6);
