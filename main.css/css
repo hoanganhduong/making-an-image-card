@@ -18,8 +18,11 @@ img-flex {
   border-radius: 0 6px 6px;
 }
 
+.card-body {
+  padding: .2rem .1rem;
+}
+
 .card-title {
-  position: absolute;
   margin: 0;
   padding: .3rem .1rem;
 }
@@ -28,8 +31,4 @@ img-flex {
   padding: .3rem 1rem .3rem calc(1rem - 4px);
   border-left: 4px solid green;
   background-color: rgba (255 ,255 ,255 , .6);
-}
-
-.card-body {
-  padding: .2rem .1rem; 
 }
